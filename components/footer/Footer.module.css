@@ -1,0 +1,37 @@
+.footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.p {
+  font-size: .9rem;
+}
+
+.love {
+  color: red;
+}
+
+.a {
+  text-decoration: none;
+}
+
+.a:hover {
+  color: aqua;
+}
+
+.a:hover::after {
+  content: 'Facebook';
+  position: absolute;
+  background-color: white;
+  color: black;
+  top: -30%;
+  right: 39%;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 3px 5px;
+}
